@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",               // ✅ Use ESM
+    "moduleResolution": "node",      // or "bundler" if using Vite/modern tooling
+    "verbatimModuleSyntax": true,    // ✅ Enforce clean module usage
+    "jsx": "react-jsx",
+    "types": [],
+
+    // Output (optional for lib publishing)
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Type checking
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+  }
+}
